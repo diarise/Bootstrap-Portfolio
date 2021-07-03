@@ -1,0 +1,7 @@
+.centered {
+    text-align: center;
+    align-items: center!important;
+}
+.roundImg{
+    border-radius: 50%;
+}
