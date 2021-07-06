@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+input:focus,
+button:focus {
+    outline: none;
+}
+.customNav img{
+    object-fit: cover;
+    height: 40px;
+}
 .centered {
     text-align: center;
     align-items: center!important;
@@ -5,3 +18,176 @@
 .roundImg{
     border-radius: 50%;
 }
+.customNav {
+    background-color: #000;
+}
+.customNav a{
+    color: #fff;
+}
+.customNav input{
+    border-color: #000;
+}
+.customNav button {
+    border-color: #FCA311;
+    color: #FCA311;
+}
+.customNav button:hover{
+    background-color: #FCA311;
+    color: #000;
+    border-color: #FCA311;
+}
+.customJombotron {
+    background-color: #14213D;
+    min-height: 50vh;
+    color: #fff; 
+    font-weight: 300;
+    font-size: 72px;  
+}
+.customJombotron a {
+    background-color: #FCA311;
+    color: #000;
+    border-color: #FCA311;
+}
+.customJombotron a:hover{
+    background-color: #14213D;
+    border: 1px solid #FCA311;
+    color: #FCA311;
+}
+h2 {
+    font-weight: 300;
+    font-size: 56px;
+    color: #343A40;
+    padding: 80px 0;
+}
+.mySkill P{
+    font-size: 20px;
+}
+.mySkillIcone {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.6);
+}
+.mySkill p {
+    margin-top: 30px;
+}
+.firstIcone {
+    background-color: #14213D;
+}
+.secondIcone {
+    background-color: #886227;
+}
+.thirdIcone {
+    background-color: #FCA311;
+}
+.card {
+    margin-bottom: 50px;
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A111F;
+}
+.card img{
+    width: 431pxpx;
+    height: 271px;
+    object-fit: cover;
+}
+.card a {
+    background-color: #14213D;
+    color: #E5E5E5;
+    border-color: #14213D;
+}
+.card a:hover{
+    background-color: #E5E5E5;
+    border: 1px solid #14213D;
+    color: #14213D;
+}
+.aboutMe img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.aboutMe p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+.aboutMe button{
+    background-color: #FCA311;
+    color: #000;
+    border-color: #FCA311;   
+}
+.aboutMe button:hover{
+    background-color: #14213D;
+    color: #fff;
+    border-color: #14213D;   
+}
+.contactMe {
+    margin-bottom: 40px;
+}
+a .fab{
+    font-size: 25px;
+    color: #14213D;
+}
+a .fab:hover{
+    color: #FCA311;
+}
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
